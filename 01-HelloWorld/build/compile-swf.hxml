@@ -1,0 +1,16 @@
+-main Main
+-cp ../src
+-swf ../bin/Main.swf
+-swf-version 10.2
+
+-lib cocktail
+-lib cocktail-dom-event
+-lib cocktail-timer
+-lib cocktail-css-selector
+-lib cocktail-dom
+-lib cocktail-ds
+-lib cocktail-cssom
+-lib cocktail-url
+-lib cocktail-geom
+-lib cocktail-dom
+--remap js:cocktail
